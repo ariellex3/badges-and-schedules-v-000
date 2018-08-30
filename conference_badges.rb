@@ -13,6 +13,11 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(room_assignments)
+counter = 1
+room_assignments.each do |room|
+  puts "Hello, name! You'll be assigned to room #{room}!"
+  counter += 1
+end
 end
 
 def printer
